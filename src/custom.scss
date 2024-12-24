@@ -1,0 +1,8 @@
+// Override default variables before the import
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// only use this file if you want to customize the default bootstrap
+// will need to replace the current import in index.js with the import of this file if customizing
